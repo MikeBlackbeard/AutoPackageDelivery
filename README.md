@@ -35,4 +35,18 @@ On your Ubuntu PC terminal write the next command to connect with your Raspberry
 
     ssh ubuntu@<Raspberry pi IP address>
    
+ # RViz Configuration
+ 
+    ls -l /dev |grep ttyUSB
+    sudo chmod 666 /dev/ttyUSB0
+    roslaunch rplidar_ros view_rplidar.launch
+
+
+RViz2:
+1.	In global option change ‘Fixed Frame’ from “map” to “laser”
+2.	Click on Add
+3.	Select Laser Scan
+4.	Expand the ‘Laser Scan’ menu
+5.	Change topic to /scan
+6.	If the points are too small, change ‘Size (m)’ from 0.01 to a bigger value. I.e. 0.03
 
