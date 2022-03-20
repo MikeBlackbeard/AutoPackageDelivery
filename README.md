@@ -28,4 +28,9 @@ The core of the robot is managed by a [Raspberry Pi 3](https://www.raspberrypi.c
 From this point it will be possible to access the Raspberry Pi 3 from your Ubuntu system
 
 1. Get the IP address of both your Raspberry Pi and your Ubuntu PC.
-   - To get your PC address you can use 
+   - To get your PC address you can use `hostname -I` on your terminal
+2. On your Ubunto PC terminal write the next command to connect with your Raspberry Pi:
+
+    sudo hello
+   
+3. Run
