@@ -13,6 +13,11 @@ The core of the robot is managed by a [Raspberry Pi 3](https://www.raspberrypi.c
 
 # Requirements
 
+* Raspberry Pi 3B or newer
+* PC runnun Ubuntu (On Windows or Mac you can use a virtual machine with Ubuntu)
+* Arduino Uno
+* [RPLidar A1](https://www.slamtec.com/en/Lidar/A1)
+
 
 # Conection Instruction
 
