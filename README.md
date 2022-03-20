@@ -13,9 +13,9 @@ The core of the robot is managed by a [Raspberry Pi 3](https://www.raspberrypi.c
 
 # Requirements
 
-* Raspberry Pi 3B or newer
+* [Raspberry Pi 3B](https://www.raspberrypi.com/products/) or newer
 * PC runnun Ubuntu (On Windows or Mac you can use a virtual machine with Ubuntu)
-* Arduino Uno
+* [Arduino Uno](http://store.arduino.cc/collections/arduino/products/arduino-uno-rev3)
 * [RPLidar A1](https://www.slamtec.com/en/Lidar/A1)
 
 
@@ -26,3 +26,6 @@ The core of the robot is managed by a [Raspberry Pi 3](https://www.raspberrypi.c
 3. Set up your Network conection \*\*\*\**Pendient*\*\*\*\*
 
 From this point it will be possible to access the Raspberry Pi 3 from your Ubuntu system
+
+1. Get the IP address of both your Raspberry Pi and your Ubuntu PC.
+   - To get your PC address you can use 
