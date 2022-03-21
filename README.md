@@ -50,3 +50,8 @@ RViz2:
 5.	Change topic to /scan
 6.	If the points are too small, change ‘Size (m)’ from 0.01 to a bigger value. I.e. 0.03
 
+# Arduino
+
+    ls /dev/ttyACM0
+    
+    sudo chmod a+rw /dev/ttyACM0
