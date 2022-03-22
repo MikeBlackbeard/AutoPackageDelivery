@@ -34,8 +34,14 @@ Get the IP address of both your Raspberry Pi and your Ubuntu PC.
 On your Ubuntu PC terminal write the next command to connect with your Raspberry Pi:
 
     ssh ubuntu@<Raspberry pi IP address>
+    
+# ROS pairing
+
+In both the Raspberry and the PC:
+
+    ROS_DOMAIN_ID=6
    
- # RViz Configuration
+# RViz Configuration
  
     ls -l /dev |grep ttyUSB
     sudo chmod 666 /dev/ttyUSB0
