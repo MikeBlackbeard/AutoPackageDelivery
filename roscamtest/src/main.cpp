@@ -30,7 +30,7 @@ class CameraPublisher : public rclcpp::Node
   private:
     void timer_callback()
     {
-        cv::VideoCapture cap("/home/mike/Documents/roscamtest/roscamtest/song.mp4");
+        cv::VideoCapture cap(0);
         cv::Mat img; // << image MUST be contained here
         cap.read(img);
         cv::cvtColor(img, img, cv::COLOR_BGR2RGB);
