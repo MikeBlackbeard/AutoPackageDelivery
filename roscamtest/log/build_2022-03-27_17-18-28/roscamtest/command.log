@@ -1,0 +1,2 @@
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4

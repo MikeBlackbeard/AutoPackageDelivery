@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/publish_cam.dir/src/main.cpp.o: in function `CameraPublisher::timer_callback()':
+main.cpp:(.text._ZN15CameraPublisher14timer_callbackEv[_ZN15CameraPublisher14timer_callbackEv]+0x251): undefined reference to `cv_bridge::CvImage::toImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >&) const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/publish_cam.dir/build.make:189: publish_cam] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publish_cam.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

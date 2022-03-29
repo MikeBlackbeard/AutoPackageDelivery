@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+[0.058s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.494s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.175s] CMake Error at CMakeLists.txt:44 (install):
+[1.175s]   install TARGETS given target "talker" which does not exist.
+[1.176s] 
+[1.176s] 
+[1.249s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.276s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.287s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.287s] -- Configured cppcheck include dirs: 
+[1.287s] -- Configured cppcheck exclude dirs and/or files: 
+[1.303s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.303s] -- Configured cpplint exclude dirs and/or files: 
+[1.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.308s] -- Added test 'lint_cmake' to check CMake code style
+[1.310s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.329s] -- Added test 'uncrustify' to check C / C++ code style
+[1.329s] -- Configured uncrustify additional arguments: 
+[1.330s] -- Added test 'xmllint' to check XML markup files
+[1.330s] -- Configuring incomplete, errors occurred!
+[1.330s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeOutput.log".
+[1.330s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeError.log".
+[1.578s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest

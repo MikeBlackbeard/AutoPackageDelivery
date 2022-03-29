@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (cam_publisher) JobQueued: {'identifier': 'cam_publisher', 'dependencies': OrderedDict()}
+[0.001330] (cam_publisher) JobStarted: {'identifier': 'cam_publisher'}
+[0.045329] (cam_publisher) JobProgress: {'identifier': 'cam_publisher', 'progress': 'cmake'}
+[0.047155] (cam_publisher) JobProgress: {'identifier': 'cam_publisher', 'progress': 'build'}
+[0.048720] (cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher', '--', '-j4', '-l4'], 'cwd': '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2125'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mike'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mike/Documents/roscamtest'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1912'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18615'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mike'), ('JOURNAL_STREAM', '8:35446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mike-VirtualBox:@/tmp/.ICE-unix/2163,unix/mike-VirtualBox:/tmp/.ICE-unix/2163'), ('INVOCATION_ID', 'f1884d0562e84397a5a01286373b9793'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c01214e722.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher:/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher:/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy')]), 'shell': False}
+[0.099140] (-) TimerEvent: {}
+[0.127530] (cam_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_cam\x1b[0m\n'}
+[0.199465] (-) TimerEvent: {}
+[0.214344] (cam_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publish_cam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.306298] (-) TimerEvent: {}
+[0.406864] (-) TimerEvent: {}
+[0.507130] (-) TimerEvent: {}
+[0.607967] (-) TimerEvent: {}
+[0.708296] (-) TimerEvent: {}
+[0.809132] (-) TimerEvent: {}
+[0.909617] (-) TimerEvent: {}
+[1.010627] (-) TimerEvent: {}
+[1.111050] (-) TimerEvent: {}
+[1.211374] (-) TimerEvent: {}
+[1.312003] (-) TimerEvent: {}
+[1.413440] (-) TimerEvent: {}
+[1.514038] (-) TimerEvent: {}
+[1.614646] (-) TimerEvent: {}
+[1.715417] (-) TimerEvent: {}
+[1.816437] (-) TimerEvent: {}
+[1.916955] (-) TimerEvent: {}
+[2.017762] (-) TimerEvent: {}
+[2.118377] (-) TimerEvent: {}
+[2.219022] (-) TimerEvent: {}
+[2.319495] (-) TimerEvent: {}
+[2.420049] (-) TimerEvent: {}
+[2.520557] (-) TimerEvent: {}
+[2.621079] (-) TimerEvent: {}
+[2.739084] (-) TimerEvent: {}
+[2.840005] (-) TimerEvent: {}
+[2.940449] (-) TimerEvent: {}
+[3.040691] (-) TimerEvent: {}
+[3.141437] (-) TimerEvent: {}
+[3.242010] (-) TimerEvent: {}
+[3.342611] (-) TimerEvent: {}
+[3.443577] (-) TimerEvent: {}
+[3.543883] (-) TimerEvent: {}
+[3.644614] (-) TimerEvent: {}
+[3.745108] (-) TimerEvent: {}
+[3.845675] (-) TimerEvent: {}
+[3.946813] (-) TimerEvent: {}
+[4.047353] (-) TimerEvent: {}
+[4.147774] (-) TimerEvent: {}
+[4.248772] (-) TimerEvent: {}
+[4.349373] (-) TimerEvent: {}
+[4.449951] (-) TimerEvent: {}
+[4.551117] (-) TimerEvent: {}
+[4.651591] (-) TimerEvent: {}
+[4.752095] (-) TimerEvent: {}
+[4.853216] (-) TimerEvent: {}
+[4.954201] (-) TimerEvent: {}
+[5.054822] (-) TimerEvent: {}
+[5.155355] (-) TimerEvent: {}
+[5.255598] (-) TimerEvent: {}
+[5.356414] (-) TimerEvent: {}
+[5.457412] (-) TimerEvent: {}
+[5.558477] (-) TimerEvent: {}
+[5.659636] (-) TimerEvent: {}
+[5.760282] (-) TimerEvent: {}
+[5.861447] (-) TimerEvent: {}
+[5.962354] (-) TimerEvent: {}
+[6.062627] (-) TimerEvent: {}
+[6.164156] (-) TimerEvent: {}
+[6.265332] (-) TimerEvent: {}
+[6.365912] (-) TimerEvent: {}
+[6.466442] (-) TimerEvent: {}
+[6.567421] (-) TimerEvent: {}
+[6.668447] (-) TimerEvent: {}
+[6.768956] (-) TimerEvent: {}
+[6.869694] (-) TimerEvent: {}
+[6.971086] (-) TimerEvent: {}
+[7.071610] (-) TimerEvent: {}
+[7.172194] (-) TimerEvent: {}
+[7.273635] (-) TimerEvent: {}
+[7.374661] (-) TimerEvent: {}
+[7.475301] (-) TimerEvent: {}
+[7.575839] (-) TimerEvent: {}
+[7.676411] (-) TimerEvent: {}
+[7.776848] (-) TimerEvent: {}
+[7.859251] (cam_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_cam\x1b[0m\n'}
+[7.878797] (-) TimerEvent: {}
+[7.979917] (-) TimerEvent: {}
+[8.080351] (-) TimerEvent: {}
+[8.181933] (-) TimerEvent: {}
+[8.283404] (-) TimerEvent: {}
+[8.383956] (-) TimerEvent: {}
+[8.484468] (-) TimerEvent: {}
+[8.585598] (-) TimerEvent: {}
+[8.685942] (-) TimerEvent: {}
+[8.704340] (cam_publisher) StdoutLine: {'line': b'[100%] Built target publish_cam\n'}
+[8.731924] (cam_publisher) CommandEnded: {'returncode': 0}
+[8.765639] (cam_publisher) JobProgress: {'identifier': 'cam_publisher', 'progress': 'install'}
+[8.780212] (cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher'], 'cwd': '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2125'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mike'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mike/Documents/roscamtest'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1912'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18615'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mike'), ('JOURNAL_STREAM', '8:35446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mike-VirtualBox:@/tmp/.ICE-unix/2163,unix/mike-VirtualBox:/tmp/.ICE-unix/2163'), ('INVOCATION_ID', 'f1884d0562e84397a5a01286373b9793'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c01214e722.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher:/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher:/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy')]), 'shell': False}
+[8.786032] (-) TimerEvent: {}
+[8.794902] (cam_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.795797] (cam_publisher) StdoutLine: {'line': b'-- Installing: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/lib/cam_publisher/publish_cam\n'}
+[8.806977] (cam_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/lib/cam_publisher/publish_cam" to ""\n'}
+[8.807399] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/package_run_dependencies/cam_publisher\n'}
+[8.807786] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/parent_prefix_path/cam_publisher\n'}
+[8.808230] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/ament_prefix_path.sh\n'}
+[8.808486] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/ament_prefix_path.dsv\n'}
+[8.808730] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/path.sh\n'}
+[8.808999] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/path.dsv\n'}
+[8.809266] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.bash\n'}
+[8.809547] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.sh\n'}
+[8.809859] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.zsh\n'}
+[8.810150] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.dsv\n'}
+[8.810393] (cam_publisher) StdoutLine: {'line': b'-- Installing: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/package.dsv\n'}
+[8.810699] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/packages/cam_publisher\n'}
+[8.811102] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/cmake/cam_publisherConfig.cmake\n'}
+[8.811382] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/cmake/cam_publisherConfig-version.cmake\n'}
+[8.811591] (cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/package.xml\n'}
+[8.817047] (cam_publisher) CommandEnded: {'returncode': 0}
+[8.886597] (-) TimerEvent: {}
+[8.903176] (cam_publisher) JobEnded: {'identifier': 'cam_publisher', 'rc': 0}
+[8.904320] (-) EventReactorShutdown: {}

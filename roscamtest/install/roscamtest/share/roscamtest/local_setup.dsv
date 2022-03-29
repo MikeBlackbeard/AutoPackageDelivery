@@ -1,0 +1,2 @@
+source;share/roscamtest/environment/ament_prefix_path.sh
+source;share/roscamtest/environment/path.sh

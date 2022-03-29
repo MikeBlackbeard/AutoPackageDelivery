@@ -1,0 +1,4 @@
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher

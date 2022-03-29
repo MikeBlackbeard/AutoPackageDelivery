@@ -1,0 +1,99 @@
+[0.244s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.244s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc90db9a3a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc90db9a3a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc90db9a8e0>)
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mike/Documents/roscamtest/roscamtest'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'roscamtest'
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'roscamtest' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'roscamtest' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest', 'merge_install': False, 'path': '/home/mike/Documents/roscamtest/roscamtest', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike/Documents/roscamtest/roscamtest' with build type 'ament_cmake'
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike/Documents/roscamtest/roscamtest'
+[0.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[7.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[7.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+[7.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roscamtest)
+[7.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+[7.172s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest' for CMake module files
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest' for CMake config files
+[7.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('roscamtest', 'cmake_prefix_path')
+[7.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.ps1'
+[7.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.dsv'
+[7.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.sh'
+[7.181s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib'
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/bin'
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/pkgconfig/roscamtest.pc'
+[7.182s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/python3.8/site-packages'
+[7.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.ps1'
+[7.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.dsv'
+[7.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.sh'
+[7.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.bash'
+[7.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.zsh'
+[7.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/colcon-core/packages/roscamtest)
+[7.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roscamtest)
+[7.247s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest' for CMake module files
+[7.248s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest' for CMake config files
+[7.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('roscamtest', 'cmake_prefix_path')
+[7.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.ps1'
+[7.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.dsv'
+[7.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/hook/cmake_prefix_path.sh'
+[7.253s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib'
+[7.253s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/bin'
+[7.253s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/pkgconfig/roscamtest.pc'
+[7.253s] Level 1:colcon.colcon_core.environment:checking '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/python3.8/site-packages'
+[7.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.ps1'
+[7.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.dsv'
+[7.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.sh'
+[7.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.bash'
+[7.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.zsh'
+[7.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/colcon-core/packages/roscamtest)
+[7.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.261s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.270s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.296s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/Documents/roscamtest/roscamtest/install/local_setup.ps1'
+[7.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike/Documents/roscamtest/roscamtest/install/_local_setup_util_ps1.py'
+[7.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/Documents/roscamtest/roscamtest/install/setup.ps1'
+[7.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/Documents/roscamtest/roscamtest/install/local_setup.sh'
+[7.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike/Documents/roscamtest/roscamtest/install/_local_setup_util_sh.py'
+[7.309s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/Documents/roscamtest/roscamtest/install/setup.sh'
+[7.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/Documents/roscamtest/roscamtest/install/local_setup.bash'
+[7.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/Documents/roscamtest/roscamtest/install/setup.bash'
+[7.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike/Documents/roscamtest/roscamtest/install/local_setup.zsh'
+[7.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike/Documents/roscamtest/roscamtest/install/setup.zsh'

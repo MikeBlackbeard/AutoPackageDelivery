@@ -1,0 +1,7 @@
+[01m[K/home/mike/Documents/roscamtest/roscamtest/src/main.cpp:[m[K In constructor ‘[01m[KRosCamPub::RosCamPub()[m[K’:
+[01m[K/home/mike/Documents/roscamtest/roscamtest/src/main.cpp:20:57:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&RosCamPub::timer_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+   20 |       timer_ = this->create_wall_timer(50ms, std::bind(&[01;31m[Ktimer_callback[m[K, this));
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_pub.dir/build.make:63: CMakeFiles/camera_pub.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

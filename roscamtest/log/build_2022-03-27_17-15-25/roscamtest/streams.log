@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[0.096s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.462s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.896s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.242s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.276s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.680s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.780s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.781s]   ament_package_xml() package name 'roscamtest' in '/package.xml' does not
+[1.781s]   match current PROJECT_NAME 'camera_publisher'.  You must call project()
+[1.781s]   with the same package name before.
+[1.781s] Call Stack (most recent call first):
+[1.781s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.781s]   CMakeLists.txt:53 (ament_lint_auto_find_test_dependencies)
+[1.781s] 
+[1.781s] 
+[1.783s] -- Configuring incomplete, errors occurred!
+[1.783s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeOutput.log".
+[1.783s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeError.log".
+[1.792s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.797s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4

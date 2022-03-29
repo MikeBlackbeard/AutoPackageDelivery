@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+[0.117s] [35m[1mScanning dependencies of target publish_cam[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/publish_cam.dir/src/main.cpp.o[0m
+[7.930s] [100%] [32m[1mLinking CXX executable publish_cam[0m
+[8.288s] [100%] Built target publish_cam
+[8.310s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+[8.351s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher
+[8.361s] -- Install configuration: ""
+[8.362s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/lib/cam_publisher/publish_cam
+[8.367s] -- Set runtime path of "/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/lib/cam_publisher/publish_cam" to ""
+[8.368s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/package_run_dependencies/cam_publisher
+[8.368s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/parent_prefix_path/cam_publisher
+[8.369s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/ament_prefix_path.sh
+[8.369s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/ament_prefix_path.dsv
+[8.369s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/path.sh
+[8.370s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/environment/path.dsv
+[8.370s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.bash
+[8.370s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.sh
+[8.370s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.zsh
+[8.371s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/local_setup.dsv
+[8.371s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/package.dsv
+[8.371s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/ament_index/resource_index/packages/cam_publisher
+[8.371s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/cmake/cam_publisherConfig.cmake
+[8.372s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/cmake/cam_publisherConfig-version.cmake
+[8.377s] -- Up-to-date: /home/mike/Documents/roscamtest/roscamtest/install/cam_publisher/share/cam_publisher/package.xml
+[8.380s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher

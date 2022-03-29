@@ -1,0 +1,35 @@
+[0.026s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[0.089s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.149s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.471s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.826s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.829s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.143s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.155s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.553s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.674s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.703s] -- Configured cppcheck include dirs: 
+[1.704s] -- Configured cppcheck exclude dirs and/or files: 
+[1.733s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.733s] -- Configured cpplint exclude dirs and/or files: 
+[1.737s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.744s] -- Added test 'lint_cmake' to check CMake code style
+[1.748s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.776s] -- Added test 'uncrustify' to check C / C++ code style
+[1.777s] -- Configured uncrustify additional arguments: 
+[1.781s] -- Added test 'xmllint' to check XML markup files
+[1.785s] -- Configuring done
+[1.817s] -- Generating done
+[1.823s] -- Build files have been written to: /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+[1.894s] [ 50%] [32m[1mLinking CXX executable camera_pub[0m
+[2.620s] /usr/bin/ld: CMakeFiles/camera_pub.dir/src/main.cpp.o: in function `rclcpp::Publisher<cv_bridge::CvImage, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[2.620s] main.cpp:(.text._ZN6rclcpp9PublisherIN9cv_bridge7CvImageESaIvEEC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS3_EE[_ZN6rclcpp9PublisherIN9cv_bridge7CvImageESaIvEEC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS3_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<cv_bridge::CvImage>()'
+[2.620s] collect2: error: ld returned 1 exit status
+[2.622s] make[2]: *** [CMakeFiles/camera_pub.dir/build.make:179: camera_pub] Error 1
+[2.623s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_pub.dir/all] Error 2
+[2.623s] make: *** [Makefile:141: all] Error 2
+[2.626s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4

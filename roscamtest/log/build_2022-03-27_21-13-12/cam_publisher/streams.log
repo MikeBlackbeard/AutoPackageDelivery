@@ -1,0 +1,22 @@
+[0.030s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+[0.083s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.438s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.839s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.203s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.322s] -- Configuring done
+[1.341s] -- Generating done
+[1.346s] -- Build files have been written to: /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher
+[1.402s] [ 50%] [32mBuilding CXX object CMakeFiles/publish_cam.dir/src/main.cpp.o[0m
+[1.593s] [01m[K/home/mike/Documents/roscamtest/roscamtest/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+[1.593s]     9 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+[1.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.593s] compilation terminated.
+[1.596s] make[2]: *** [CMakeFiles/publish_cam.dir/build.make:63: CMakeFiles/publish_cam.dir/src/main.cpp.o] Error 1
+[1.597s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publish_cam.dir/all] Error 2
+[1.597s] make: *** [Makefile:141: all] Error 2
+[1.601s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4

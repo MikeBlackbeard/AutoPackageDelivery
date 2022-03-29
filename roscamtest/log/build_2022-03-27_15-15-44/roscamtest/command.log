@@ -1,0 +1,6 @@
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest

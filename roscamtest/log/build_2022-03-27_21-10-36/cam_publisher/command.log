@@ -1,0 +1,2 @@
+Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher
+Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher

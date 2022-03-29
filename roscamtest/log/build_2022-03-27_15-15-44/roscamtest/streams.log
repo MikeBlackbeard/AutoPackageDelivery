@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+[0.051s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.351s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.418s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.172s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.305s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.314s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.314s] -- Configured cppcheck include dirs: 
+[1.314s] -- Configured cppcheck exclude dirs and/or files: 
+[1.328s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.328s] -- Configured cpplint exclude dirs and/or files: 
+[1.330s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.334s] -- Added test 'lint_cmake' to check CMake code style
+[1.335s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.348s] -- Added test 'uncrustify' to check C / C++ code style
+[1.348s] -- Configured uncrustify additional arguments: 
+[1.350s] -- Added test 'xmllint' to check XML markup files
+[1.357s] -- Configuring done
+[1.386s] -- Generating done
+[1.390s] -- Build files have been written to: /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+[1.398s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/roscamtest
+[1.403s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[1.475s] [35m[1mScanning dependencies of target camera_pub[0m
+[1.557s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_pub.dir/src/main.cpp.o[0m
+[6.339s] [100%] [32m[1mLinking CXX executable camera_pub[0m
+[6.718s] [100%] Built target camera_pub
+[6.737s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[6.794s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest
+[6.811s] -- Install configuration: ""
+[6.812s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/roscamtest/camera_pub
+[6.814s] -- Set runtime path of "/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/roscamtest/camera_pub" to ""
+[6.815s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/package_run_dependencies/roscamtest
+[6.815s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/parent_prefix_path/roscamtest
+[6.816s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/ament_prefix_path.sh
+[6.816s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/ament_prefix_path.dsv
+[6.818s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/path.sh
+[6.818s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/path.dsv
+[6.822s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.bash
+[6.827s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.sh
+[6.828s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.zsh
+[6.829s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.dsv
+[6.831s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.dsv
+[6.832s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/packages/roscamtest
+[6.832s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/cmake/roscamtestConfig.cmake
+[6.833s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/cmake/roscamtestConfig-version.cmake
+[6.833s] -- Installing: /home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.xml
+[6.842s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mike/Documents/roscamtest/roscamtest/build/roscamtest

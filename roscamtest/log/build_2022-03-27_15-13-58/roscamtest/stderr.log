@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:34 (target_link_libraries):
+  Cannot specify link libraries for target "camera_pub" which is not built by
+  this project.
+
+

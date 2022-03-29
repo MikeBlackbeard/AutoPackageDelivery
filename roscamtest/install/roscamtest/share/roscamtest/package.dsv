@@ -1,0 +1,8 @@
+source;share/roscamtest/hook/cmake_prefix_path.ps1
+source;share/roscamtest/hook/cmake_prefix_path.dsv
+source;share/roscamtest/hook/cmake_prefix_path.sh
+source;share/roscamtest/local_setup.bash
+source;share/roscamtest/local_setup.dsv
+source;share/roscamtest/local_setup.ps1
+source;share/roscamtest/local_setup.sh
+source;share/roscamtest/local_setup.zsh

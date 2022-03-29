@@ -1,0 +1,16 @@
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/lib/roscamtest/camera_pub
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/package_run_dependencies/roscamtest
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/parent_prefix_path/roscamtest
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/ament_prefix_path.sh
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/ament_prefix_path.dsv
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/path.sh
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/environment/path.dsv
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.bash
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.sh
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.zsh
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/local_setup.dsv
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.dsv
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/ament_index/resource_index/packages/roscamtest
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/cmake/roscamtestConfig.cmake
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/cmake/roscamtestConfig-version.cmake
+/home/mike/Documents/roscamtest/roscamtest/install/roscamtest/share/roscamtest/package.xml

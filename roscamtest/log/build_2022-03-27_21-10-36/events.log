@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.001175] (cam_publisher) JobQueued: {'identifier': 'cam_publisher', 'dependencies': OrderedDict()}
+[0.001277] (cam_publisher) JobStarted: {'identifier': 'cam_publisher'}
+[0.025158] (cam_publisher) JobProgress: {'identifier': 'cam_publisher', 'progress': 'cmake'}
+[0.025873] (cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/mike/Documents/roscamtest/roscamtest', '-DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher'], 'cwd': '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mike'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '2125'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mike'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mike/Documents/roscamtest'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/91/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/91/usr/share/code/code'), ('MANAGERPID', '1912'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18615'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mike'), ('JOURNAL_STREAM', '8:35446'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mike'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mike-VirtualBox:@/tmp/.ICE-unix/2163,unix/mike-VirtualBox:/tmp/.ICE-unix/2163'), ('INVOCATION_ID', 'f1884d0562e84397a5a01286373b9793'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c01214e722.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/91/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mike/Documents/roscamtest/roscamtest/install/roscamtest:/opt/ros/foxy')]), 'shell': False}
+[0.099878] (-) TimerEvent: {}
+[0.156397] (cam_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199922] (-) TimerEvent: {}
+[0.264043] (cam_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.275018] (cam_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300123] (-) TimerEvent: {}
+[0.395684] (cam_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.396014] (cam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400814] (-) TimerEvent: {}
+[0.501256] (-) TimerEvent: {}
+[0.518171] (cam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.546600] (cam_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.547475] (cam_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.555189] (cam_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.601510] (-) TimerEvent: {}
+[0.695837] (cam_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.696131] (cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701747] (-) TimerEvent: {}
+[0.802225] (-) TimerEvent: {}
+[0.827065] (cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.859192] (cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.860694] (cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.864200] (cam_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.901032] (cam_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.901399] (cam_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902325] (-) TimerEvent: {}
+[1.002904] (-) TimerEvent: {}
+[1.103620] (-) TimerEvent: {}
+[1.204431] (-) TimerEvent: {}
+[1.264335] (cam_publisher) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.305187] (-) TimerEvent: {}
+[1.339629] (cam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.352427] (cam_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.405932] (-) TimerEvent: {}
+[1.481593] (cam_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.506486] (-) TimerEvent: {}
+[1.529508] (cam_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.606613] (-) TimerEvent: {}
+[1.674731] (cam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706721] (-) TimerEvent: {}
+[1.802218] (cam_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.805122] (cam_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.807022] (-) TimerEvent: {}
+[1.807334] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.907243] (-) TimerEvent: {}
+[1.930303] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.930615] (cam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.011403] (-) TimerEvent: {}
+[2.075584] (cam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.075792] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.111740] (-) TimerEvent: {}
+[2.168847] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.169192] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.212705] (-) TimerEvent: {}
+[2.291828] (cam_publisher) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.294182] (cam_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.315724] (-) TimerEvent: {}
+[2.419640] (-) TimerEvent: {}
+[2.520220] (-) TimerEvent: {}
+[2.620535] (-) TimerEvent: {}
+[2.721194] (-) TimerEvent: {}
+[2.814309] (cam_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.816198] (cam_publisher) StderrLine: {'line': b'CMake Error at CMakeLists.txt:17 (add_executable):\n'}
+[2.816423] (cam_publisher) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.816558] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.816703] (cam_publisher) StderrLine: {'line': b'    src/publisher_member_function.cpp\n'}
+[2.816918] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.817097] (cam_publisher) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[2.817237] (cam_publisher) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[2.817379] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.817503] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.819856] (cam_publisher) StderrLine: {'line': b'CMake Error at CMakeLists.txt:17 (add_executable):\n'}
+[2.820138] (cam_publisher) StderrLine: {'line': b'  No SOURCES given to target: publish_cam\n'}
+[2.820374] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.820554] (cam_publisher) StderrLine: {'line': b'\n'}
+[2.820776] (cam_publisher) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[2.821321] (-) TimerEvent: {}
+[2.829772] (cam_publisher) CommandEnded: {'returncode': 1}
+[2.870964] (cam_publisher) JobEnded: {'identifier': 'cam_publisher', 'rc': 1}
+[2.882722] (-) EventReactorShutdown: {}

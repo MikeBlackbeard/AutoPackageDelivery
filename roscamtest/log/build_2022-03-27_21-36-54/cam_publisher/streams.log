@@ -1,0 +1,11 @@
+[0.042s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+[0.099s] [35m[1mScanning dependencies of target publish_cam[0m
+[0.154s] [ 50%] [32mBuilding CXX object CMakeFiles/publish_cam.dir/src/main.cpp.o[0m
+[7.959s] [100%] [32m[1mLinking CXX executable publish_cam[0m
+[8.276s] /usr/bin/ld: CMakeFiles/publish_cam.dir/src/main.cpp.o: in function `rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[8.277s] main.cpp:(.text._ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<sensor_msgs::msg::Image_<std::allocator<void> > >()'
+[8.277s] collect2: error: ld returned 1 exit status
+[8.278s] make[2]: *** [CMakeFiles/publish_cam.dir/build.make:179: publish_cam] Error 1
+[8.279s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publish_cam.dir/all] Error 2
+[8.279s] make: *** [Makefile:141: all] Error 2
+[8.288s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4

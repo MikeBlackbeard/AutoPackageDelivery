@@ -1,0 +1,19 @@
+[0.044s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4
+[0.092s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.488s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.287s] CMake Error at CMakeLists.txt:20 (target_link_libraries):
+[1.287s]   Cannot specify link libraries for target "publish_cam" which is not built
+[1.288s]   by this project.
+[1.288s] 
+[1.288s] 
+[1.289s] -- Configuring incomplete, errors occurred!
+[1.289s] See also "/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher/CMakeFiles/CMakeOutput.log".
+[1.290s] See also "/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher/CMakeFiles/CMakeError.log".
+[1.297s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.302s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/cam_publisher -- -j4 -l4

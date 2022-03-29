@@ -1,0 +1,10 @@
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/install/strip.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/install/local.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/install.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/list_install_components.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/rebuild_cache.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/edit_cache.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/test.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/camera_pub.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/roscamtest_uninstall.dir
+/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/uninstall.dir

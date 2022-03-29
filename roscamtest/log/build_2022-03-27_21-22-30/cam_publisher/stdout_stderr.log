@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target publish_cam[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publish_cam.dir/src/main.cpp.o[0m
+[01m[K/home/mike/Documents/roscamtest/roscamtest/src/main.cpp:43:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Publisher<cv_bridge::CvImage>::SharedPtr MinimalPublisher::publisher_[m[K’
+   43 |     rclcpp::Publisher<cv_bridge::CvImage>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mike/Documents/roscamtest/roscamtest/src/main.cpp:42:57:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr MinimalPublisher::publisher_[m[K’
+   42 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;36m[Kpublisher_[m[K;
+      |                                                         [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/publish_cam.dir/build.make:63: CMakeFiles/publish_cam.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/publish_cam.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

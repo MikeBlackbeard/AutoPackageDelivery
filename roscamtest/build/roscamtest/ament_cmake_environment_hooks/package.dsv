@@ -1,0 +1,4 @@
+source;share/roscamtest/local_setup.bash
+source;share/roscamtest/local_setup.dsv
+source;share/roscamtest/local_setup.sh
+source;share/roscamtest/local_setup.zsh

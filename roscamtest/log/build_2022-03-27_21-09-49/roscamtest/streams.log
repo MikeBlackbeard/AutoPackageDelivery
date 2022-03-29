@@ -1,0 +1,10 @@
+[0.028s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4
+[0.062s] CMake Error at CMakeLists.txt:4:
+[0.062s]   Parse error.  Expected "(", got identifier with text "to".
+[0.062s] 
+[0.062s] 
+[0.062s] -- Configuring incomplete, errors occurred!
+[0.063s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeOutput.log".
+[0.063s] See also "/home/mike/Documents/roscamtest/roscamtest/build/roscamtest/CMakeFiles/CMakeError.log".
+[0.069s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.074s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/roscamtest' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mike/Documents/roscamtest/roscamtest/build/roscamtest -- -j4 -l4

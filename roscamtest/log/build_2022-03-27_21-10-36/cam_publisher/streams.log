@@ -1,0 +1,51 @@
+[0.026s] Invoking command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher
+[0.156s] -- The C compiler identification is GNU 9.4.0
+[0.263s] -- The CXX compiler identification is GNU 9.4.0
+[0.274s] -- Check for working C compiler: /usr/bin/cc
+[0.395s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.395s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.545s] -- Detecting C compile features
+[0.546s] -- Detecting C compile features - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.695s] -- Detecting CXX compiler ABI info
+[0.826s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Detecting CXX compile features
+[0.860s] -- Detecting CXX compile features - done
+[0.863s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.900s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.900s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.263s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.351s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.480s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.528s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.801s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.804s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.806s] -- Looking for pthread.h
+[1.929s] -- Looking for pthread.h - found
+[1.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.075s] -- Looking for pthread_create in pthreads
+[2.168s] -- Looking for pthread_create in pthreads - not found
+[2.168s] -- Looking for pthread_create in pthread
+[2.291s] -- Looking for pthread_create in pthread - found
+[2.293s] -- Found Threads: TRUE  
+[2.813s] -- Configuring done
+[2.815s] CMake Error at CMakeLists.txt:17 (add_executable):
+[2.815s]   Cannot find source file:
+[2.815s] 
+[2.816s]     src/publisher_member_function.cpp
+[2.816s] 
+[2.816s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[2.816s]   .hpp .hxx .in .txx
+[2.816s] 
+[2.816s] 
+[2.819s] CMake Error at CMakeLists.txt:17 (add_executable):
+[2.819s]   No SOURCES given to target: publish_cam
+[2.819s] 
+[2.819s] 
+[2.820s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.829s] Invoked command in '/home/mike/Documents/roscamtest/roscamtest/build/cam_publisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mike/Documents/roscamtest/roscamtest -DCMAKE_INSTALL_PREFIX=/home/mike/Documents/roscamtest/roscamtest/install/cam_publisher
